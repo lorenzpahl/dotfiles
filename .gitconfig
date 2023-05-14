@@ -1,0 +1,11 @@
+[user]
+	name = Lorenz Pahl
+	email = l.pahl@outlook.com
+[core]
+	editor = code --wait
+	autocrlf = input
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+	ff = only
