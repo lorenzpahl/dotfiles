@@ -1,0 +1,48 @@
+{
+	"files.eol": "\n",
+	"files.autoSave": "onFocusChange",
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true,
+	"files.watcherExclude": {
+		"**/.bloop": true,
+		"**/.metals": true,
+		"**/.ammonite": true
+	},
+	"html.format.endWithNewline": true,
+	"editor.formatOnSaveMode": "modifications",
+	"editor.renderWhitespace": "boundary",
+	"editor.renderControlCharacters": true,
+	"editor.fontFamily": "'Cascadia Code', 'Fira Code', 'JetBrains Mono', 'IntelOne Mono Medium', Consolas, 'Courier New', monospace",
+	"editor.fontLigatures": true,
+	"editor.rulers": [
+		80,
+		120
+	],
+	"workbench.colorCustomizations": {
+		"editorIndentGuide.activeBackground": "#ff69b4"
+	},
+	"window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${appName}",
+	"java.configuration.runtimes": [
+		{
+			"name": "JavaSE-17",
+			"path": "/opt/openjdk/jdk-17.0.7+7",
+			"javadoc": "https://docs.oracle.com/en/java/javase/17/docs/api",
+			"default": true
+		}
+	],
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	},
+	"redhat.telemetry.enabled": false,
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"gitlens.defaultDateStyle": "absolute",
+	"gitlens.defaultDateLocale": "system",
+	"git.mergeEditor": true,
+	"[java]": {
+		"editor.defaultFormatter": "redhat.java"
+	}
+}
