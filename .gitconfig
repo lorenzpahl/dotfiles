@@ -1,6 +1,7 @@
 [user]
 	name = Lorenz Pahl
 	email = l.pahl@outlook.com
+	useConfigOnly = true
 [core]
 	editor = code --wait
 	autocrlf = input
