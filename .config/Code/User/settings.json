@@ -19,7 +19,7 @@
 		120
 	],
 	"workbench.colorCustomizations": {
-		"editorIndentGuide.activeBackground": "#ff69b4"
+		"editorIndentGuide.activeBackground1": "#ff69b4"
 	},
 	"window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${appName}",
 	"java.configuration.runtimes": [
@@ -41,8 +41,5 @@
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 	"gitlens.defaultDateStyle": "absolute",
 	"gitlens.defaultDateLocale": "system",
-	"git.mergeEditor": true,
-	"[java]": {
-		"editor.defaultFormatter": "redhat.java"
-	}
+	"git.mergeEditor": true
 }
