@@ -10,3 +10,13 @@
 [pull]
 	rebase = false
 	ff = only
+[merge]
+	conflictstyle = zdiff3
+[help]
+	autoCorrect = prompt
+[tag]
+	sort = -creatordate
+[branch]
+	sort = -committerdate
+[log]
+	date = iso-local
